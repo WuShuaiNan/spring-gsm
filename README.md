@@ -1,12 +1,13 @@
 # spring-gsm
 
 - 基于 springboot 的gsm短信发送模块。
+- 项目现状：目前 达娃里氏 已实现 Java 与虚拟串口的通信，但受疫情影响，采购的SIM900A与SIM800C模块尚未发货，因此无法在实际环境中进行测试。
 
 ## 一、实现原理
 - 本模块分为硬件、软件两部分。
 - 硬件可使用“信泰微电子SIM900A模块”或“正点原子SIM900C模块”，其他模块暂未进行适配，如有需要可提issue。
 - 软件采用 springboot 作为后台，通过 232、485、ttl 等串口，操作SIM900A或SIM800C模块发送GSM短信。
-- java操作串口我采用的是 JSerialComm 而非过时的 RXTXComm，感谢 hedgecrw 所做的贡献！
+- java操作串口我采用的是 JSerialComm 而非过时的 RXTXComm，感谢 Hedgecrw 所做的贡献！
 
 ## 二、使用方法
 ### 1.项目打包运行
