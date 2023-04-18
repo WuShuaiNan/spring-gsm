@@ -21,7 +21,7 @@
         <dubbo.version>2.7.15</dubbo.version>
         <zkclient.version>0.11</zkclient.version>
         <hessian.version>4.0.66</hessian.version>
-        <jetty.version>11.0.12</jetty.version>
+        <jetty.version>11.0.14</jetty.version>
         <netty.version>4.1.85.Final</netty.version>
         <curator.version>4.2.0</curator.version>
         <javax.version>7.0</javax.version>
